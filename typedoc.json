@@ -1,0 +1,11 @@
+{
+  "exclude": [
+    "**/*.spec.ts",
+    "./src/lib/utils.ts"
+  ],
+  "inputFiles": ["./src"],
+  "target": "ES6",
+  "mode": "file",
+  "out": "build/docs",
+  "theme": "./typedoc-theme"
+}

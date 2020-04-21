@@ -1,9 +1,7 @@
 import fs from 'fs';
+import os from 'os';
 import path from 'path';
-
-export interface ConfigData {
-  readonly [key: string]: any;
-}
+import { ConfigData } from './models';
 
 /**
  * Promise-based async file read operation
@@ -63,4 +61,12 @@ export function cleanData(data: ConfigData): ConfigData {
     }
     return obj;
   }, {});
+}
+
+/**
+ * Returns the path of a file with home as parent dir
+ * @param file - file name
+ */
+export function atHome(file: string): string {
+  return path.join(os.homedir(), file);
 }
