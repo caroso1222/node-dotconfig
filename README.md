@@ -8,7 +8,7 @@ Easily create and read config files from the user's home directory.
 - 🏄‍♂️ Promised-based API
 - 🥑 Proper support for nested config objects
 
-Read the [docs](here).
+Read the [docs](https://caroso1222.github.io/node-dotconfig).
 
 ## Motivation
 
