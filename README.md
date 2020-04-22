@@ -16,7 +16,7 @@ This utility is useful when you want to save `.my-app` config files in the user'
 
 ## Installation
 
-```
+```bash
 npm i node-dotconfig
 ```
 
@@ -32,7 +32,7 @@ async function config() {
 }
 ```
 
-This will create the file `~/.my-cli` with the following content:
+Running the code above will create the file `~/.my-cli` with the following content:
 
 ```ini
 [user]
@@ -42,10 +42,10 @@ apiKey=12345
 
 ## API
 
-- [createConfig](docs)
-- [readConfig](docs)
-- [updateConfig](docs)
-- [deleteConfig](docs)
+- [createConfig](https://caroso1222.github.io/node-dotconfig/globals.html#createconfig)
+- [readConfig](https://caroso1222.github.io/node-dotconfig/globals.html#readconfig)
+- [updateConfig](https://caroso1222.github.io/node-dotconfig/globals.html#updateconfig)
+- [deleteConfig](https://caroso1222.github.io/node-dotconfig/globals.html#deleteconfig)
 
 ## Licence
 
