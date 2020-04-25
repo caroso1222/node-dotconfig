@@ -1,4 +1,7 @@
 # node-dotconfig
+[![npm version](https://badge.fury.io/js/node-dotconfig.svg)](https://badge.fury.io/js/node-dotconfig)
+[![Build Status](https://travis-ci.com/caroso1222/node-dotconfig.svg?branch=master)](https://travis-ci.com/caroso1222/node-dotconfig)
+[![codecov](https://codecov.io/gh/caroso1222/node-dotconfig/branch/master/graph/badge.svg)](https://codecov.io/gh/caroso1222/node-dotconfig)
 
 Easily create and read config files from the user's home directory.
 
