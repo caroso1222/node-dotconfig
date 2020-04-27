@@ -8,7 +8,7 @@ Easily create and read config files from the user's home directory.
 - 🐝 Config files saved in `ini` [format](https://github.com/npm/ini)
 - 🏆 Cross-platform support for Windows, Linux and macOS.
 - 💥 Typings readily available
-- 🏄‍♂️ Promised-based API
+- 🏄‍♂️ Promise-based API
 - 🥑 Proper support for nested config objects
 
 Read the [docs](https://caroso1222.github.io/node-dotconfig).
